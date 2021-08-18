@@ -5,7 +5,7 @@ import storage from 'redux-persist/lib/storage'
 const INITIAL_STATE = {
     items: [],
     favorites: [],
-    details:null,
+    details:[],
     contactInfo: [],
     shoppingBox: [],
     toggleToast:false,
