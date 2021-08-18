@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+
+.card-item {
+  width: 18rem;
+  height: 350px;
+  padding-top: 30px;
+
+}
+.card-link {
+  margin: auto;
+  text-align: center;
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.4rem;
+
+}
+.cardText{
+    font-variant: small-caps;
+}
+.card-image{
+    transition: all 1s  ease;
+
+}
+.card-image:hover{
+    transform: scale(2);
+}
+.card-column:hover .card-footer{
+  background-color: rgb(116, 116, 116);
+}
+.card-column:hover .shop-box{
+  color:  rgb(0, 241, 20);
+  clip-path: inset(5% 10% 5% 12%);
+  
+}
